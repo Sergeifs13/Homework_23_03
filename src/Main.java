@@ -40,4 +40,42 @@ public class Main {
         }
 
     }
+    /*
+    ------------before Sort------------
+Emploee{id=130, name='Alexa', age=20, salary=1500}
+Emploee{id=126, name='Michaela', age=20, salary=1800}
+Emploee{id=128, name='Andreas', age=20, salary=2020}
+Emploee{id=131, name='Niko', age=19, salary=1700}
+Emploee{id=133, name='Aahor', age=20, salary=1900}
+-------------sort by ID----------------
+Emploee{id=126, name='Michaela', age=20, salary=1800}
+Emploee{id=128, name='Andreas', age=20, salary=2020}
+Emploee{id=130, name='Alexa', age=20, salary=1500}
+Emploee{id=131, name='Niko', age=19, salary=1700}
+Emploee{id=133, name='Aahor', age=20, salary=1900}
+-------------sort by Salary----------------
+Emploee{id=130, name='Alexa', age=20, salary=1500}
+Emploee{id=131, name='Niko', age=19, salary=1700}
+Emploee{id=126, name='Michaela', age=20, salary=1800}
+Emploee{id=133, name='Aahor', age=20, salary=1900}
+Emploee{id=128, name='Andreas', age=20, salary=2020}
+-------------sort by Name----------------
+Emploee{id=133, name='Aahor', age=20, salary=1900}
+Emploee{id=130, name='Alexa', age=20, salary=1500}
+Emploee{id=128, name='Andreas', age=20, salary=2020}
+Emploee{id=126, name='Michaela', age=20, salary=1800}
+Emploee{id=131, name='Niko', age=19, salary=1700}
+-------------sort by Age----------------
+Emploee{id=131, name='Niko', age=19, salary=1700}
+Emploee{id=133, name='Aahor', age=20, salary=1900}
+Emploee{id=130, name='Alexa', age=20, salary=1500}
+Emploee{id=128, name='Andreas', age=20, salary=2020}
+Emploee{id=126, name='Michaela', age=20, salary=1800}
+-------------sort by AgeAndThenName----------------
+Emploee{id=131, name='Niko', age=19, salary=1700}
+Emploee{id=133, name='Aahor', age=20, salary=1900}
+Emploee{id=130, name='Alexa', age=20, salary=1500}
+Emploee{id=128, name='Andreas', age=20, salary=2020}
+Emploee{id=126, name='Michaela', age=20, salary=1800}
+     */
 }
